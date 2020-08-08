@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;500;700&display=swap');
+
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  font-family: 'MuseoModerno', cursive;
+  background:   #2F4F4F;
+  font-size: 10px;
+  padding: 1rem;
+  color: #fff;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo  {
+  text-align: center;
+  height: 90%;
+}
+
+form {
+  text-align: center;
+}
+
+label {
+  font-size: 1.8rem;
+}
+
+input[type="number"] {
+  font-family: inherit;
+  background-color: #fff;
+  width: 60%;
+  margin: 1rem 0;
+  padding: 0.8rem 0;
+  border: none;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1.4rem;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  background: #00BFFF;
+  margin: 1rem 0;
+  outline: none;
+  transition: background 0.4s ease-out;
+}
+
+button:hover {
+  background:  #B0E0E6;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+
+li {
+  border: 1px solid;
+  padding: 1rem 1.5rem;
+}
+
+.entries-wrapper {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+}
+
+
+.entries-wrapper h3 {
+  margin: 0.5rem 0;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.data {
+  font-size: 1.4rem;
+}
+
+.data div {
+  background:#696969;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  margin: 0.5rem 0;
+  padding: 0 1rem;
+}
+
+.progress {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.progress h3 {
+  font-size: 1.6rem;
+  font-weight: lighter;
+}
+
+.progressCircleWrap {
+  display: flex;
+  justify-content: center;
+}
+
+#progressCircle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: conic-gradient( #3CB371 50%, #2d3740 50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#progressCenter {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: #2F4F4F;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    width: 60%;
+  }
+
+  input[type='number'] {
+    width: 50%;
+  }
+
+  ul li {
+    padding: 1rem;
+  }
+
+}
